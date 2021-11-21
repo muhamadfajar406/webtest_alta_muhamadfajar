@@ -21,6 +21,7 @@ public class LoginSteps {
         loginPages.inputUserNameBlank();
     }
     public void inputpassBlank() {loginPages.inputPassNameBlank();}
+    public void inputpassnameBlank() {loginPages.inputPassandNameBlank();}
 
 
     public void clickLogin2() {

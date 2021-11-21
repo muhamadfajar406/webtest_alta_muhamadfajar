@@ -22,4 +22,12 @@ Feature: Login feature in demoqa.com
     When I click 'Login' button
     Then I am stay in the page Login
 
+  Scenario: Login failed3
+    Given I am on the Login page
+    When I enter  username blank and Password blank correctly
+    When I click 'Login' button
+    Then I am stay in the page Login
+
+
+
 
