@@ -17,6 +17,11 @@ public class LoginSteps {
     public void inputAccountValid() {
         loginPages.inputUserNamePassValid();
     }
+    public void inputUserBlank() {
+        loginPages.inputUserNameBlank();
+    }
+    public void inputpassBlank() {loginPages.inputPassNameBlank();}
+
 
     public void clickLogin2() {
         loginPages.clickLogin2();

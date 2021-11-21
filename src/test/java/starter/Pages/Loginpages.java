@@ -33,6 +33,16 @@ public class Loginpages extends PageObject {
         inputPass.sendKeys("F@jar406");
     }
 
+    public void inputUserNameBlank() {
+        inputUserName.sendKeys("");
+        inputPass.sendKeys("F@jar406");
+    }
+
+    public void inputPassNameBlank() {
+        inputUserName.sendKeys("muhamadfajar4067");
+        inputPass.sendKeys("");
+    }
+
     public void clickLogin2() {
         ButtonLogin2.click();
     }
